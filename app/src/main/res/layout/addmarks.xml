@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lazarus">
+
+    <EditText
+        android:id="@+id/edtMark1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/hintAddSub1"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtMark2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtMark1"
+        android:layout_alignRight="@+id/edtMark1"
+        android:layout_below="@+id/edtMark1"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/hintAddSub2"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtMark3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtMark2"
+        android:layout_alignStart="@+id/edtMark2"
+        android:layout_below="@+id/edtMark2"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/hintAddSub3"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtMark4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtMark3"
+        android:layout_alignRight="@+id/edtMark3"
+        android:layout_below="@+id/edtMark3"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/hitAddSub4"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtMark5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtMark4"
+        android:layout_alignRight="@+id/edtMark4"
+        android:layout_below="@+id/edtMark4"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/hitAddSub5"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtMark6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtMark5"
+        android:layout_alignStart="@+id/edtMark5"
+        android:layout_below="@+id/edtMark5"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/hitAddSub6"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <Button
+        android:id="@+id/btnAddMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtMark6"
+        android:layout_alignLeft="@+id/edtMark6"
+        android:layout_alignRight="@+id/edtMark6"
+        android:layout_alignStart="@+id/edtMark6"
+        android:layout_below="@+id/edtMark6"
+        android:layout_marginTop="23dp"
+        android:text="add" />
+
+</RelativeLayout>

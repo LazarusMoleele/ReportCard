@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lazarus">
+
+    <EditText
+        android:id="@+id/edtStudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="@string/hintName"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtStudentSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtStudentName"
+        android:layout_alignStart="@+id/edtStudentName"
+        android:layout_below="@+id/edtStudentName"
+        android:ems="10"
+        android:hint="@string/hintSurname"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtStudentNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtStudentSurname"
+        android:layout_alignStart="@+id/edtStudentSurname"
+        android:layout_below="@+id/edtStudentSurname"
+        android:ems="10"
+        android:hint="@string/hintStudentNo"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtSub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtStudentNo"
+        android:layout_alignStart="@+id/edtStudentNo"
+        android:layout_below="@+id/edtStudentNo"
+        android:ems="10"
+        android:hint="@string/hintSub1"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtSub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtSub1"
+        android:layout_alignStart="@+id/edtSub1"
+        android:layout_below="@+id/edtSub1"
+        android:ems="10"
+        android:hint="@string/hintSub2"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtSub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtSub2"
+        android:layout_alignStart="@+id/edtSub2"
+        android:layout_below="@+id/edtSub2"
+        android:ems="10"
+        android:hint="@string/hintSub3"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtSub4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtSub3"
+        android:layout_alignRight="@+id/edtSub3"
+        android:layout_below="@+id/edtSub3"
+        android:ems="10"
+        android:hint="@string/hintSub4"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtSub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintSub5"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtSub4"
+        android:layout_alignLeft="@+id/edtSub4"
+        android:layout_alignStart="@+id/edtSub4" />
+
+    <Button
+        android:id="@+id/btnAddStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/edtSub5"
+        android:layout_alignStart="@+id/edtSub5"
+        android:layout_alignRight="@+id/edtSub6"
+        android:layout_alignEnd="@+id/edtSub6" />
+
+    <EditText
+        android:id="@+id/edtSub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintSub6"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtSub5"
+        android:layout_alignLeft="@+id/edtSub5"
+        android:layout_alignStart="@+id/edtSub5" />
+</RelativeLayout>

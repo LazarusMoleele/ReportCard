@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Report Card</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintpa">Password</string>
+    <string name="hintName">Name</string>
+    <string name="hintSurname">Surname</string>
+    <string name="hintStudentNo">Student Number</string>
+    <string name="hintSub1">Sub1</string>
+    <string name="hintSub2">Sub2</string>
+    <string name="hintSub3">Sub3</string>
+    <string name="hintSub4">Sub4</string>
+    <string name="hintSub5">Sub5</string>
+    <string name="hintSub6">Sub6</string>
+    <string name="hintAddSub1">Sub1</string>
+    <string name="hintAddSub2">Sub2</string>
+    <string name="hintAddSub3">Sub3</string>
+    <string name="hitAddSub4">Sub4</string>
+    <string name="hitAddSub5">Sub5</string>
+    <string name="hitAddSub6">Sub6</string>
+</resources>
